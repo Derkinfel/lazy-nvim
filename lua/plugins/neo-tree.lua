@@ -3,6 +3,8 @@ return {
   branch = "v3.x",
   cmd = "Neotree",
   keys = {
+    { "<leader>fe", false },
+    { "<leader>Fe", false },
     {
       "<leader>e",
       function()
