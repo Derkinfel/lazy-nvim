@@ -34,7 +34,7 @@ return {
     },
     {
       "<leader>fe",
-      Util.telescope("files", { cwd = "/home/derkinfel/projects/programming" }),
+      Util.telescope("files", { cwd = "/home/derkinfel/projects/programming/" }),
       desc = "Find Files (programming dir)",
     },
     {
