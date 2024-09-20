@@ -8,6 +8,9 @@ local Util = require("lazyvim.util")
 -- use `vim.keymap.set` instead
 local map = Util.safe_keymap_set
 
+-- custom shit
+map("i", "<C-х>", "<esc>")
+
 -- better up/down
 map({ "n", "x" }, "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 map({ "n", "x" }, "<Down>", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })

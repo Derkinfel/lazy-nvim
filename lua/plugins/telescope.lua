@@ -29,12 +29,12 @@ return {
     { "<leader>fc", Util.telescope.config_files(), desc = "Find Config File" },
     {
       "<leader>fE",
-      Util.telescope("files", { cwd = "/home/derkinfel/projects/notes" }),
+      Util.telescope("files", { cwd = "/d/notes" }),
       desc = "Find Files (notes dir)",
     },
     {
       "<leader>fe",
-      Util.telescope("files", { cwd = "/home/derkinfel/projects/programming/" }),
+      Util.telescope("files", { cwd = "/d/prog" }),
       desc = "Find Files (programming dir)",
     },
     {
