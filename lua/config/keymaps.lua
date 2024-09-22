@@ -7,3 +7,4 @@ map("n", "<c-.>", function()
 end, { desc = "Terminal (cwd)" })
 
 map("t", "<C-.>", "<cmd>close<cr>", { desc = "Hide Terminal" })
+map("i", "C-х", "<esc>")
