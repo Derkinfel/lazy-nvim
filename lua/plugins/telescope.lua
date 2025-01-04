@@ -32,5 +32,15 @@ return {
       LazyVim.pick("files", { cwd = "/home/derkinfel/.config" }),
       desc = "Find Files (.config dir)",
     },
+    {
+      "<leader>fd",
+      LazyVim.pick("files", { cwd = "/usr/local/bin/" }),
+      desc = "Find Files (/usr/local/bin)",
+    },
+    {
+      "<leader>fD",
+      LazyVim.pick("files", { cwd = "/bin" }),
+      desc = "Find Files (/bin)",
+    },
   },
 }
